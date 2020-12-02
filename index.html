@@ -2,21 +2,130 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <title>My Portfolio Site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio Site</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
+  <!---Using Font-->
+  <!-- <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
-  <h1 class="title">Stephen's Portfolio Site</h1>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <p>Welcome to my website</p>
-  <h2>Programming experience</h2>
+  <section>
+<!------navigation-->
+<nav>
+  <!------Logo-->
+  <a href="#" class="logo">STEPHEN WALTON</a>
+  <!------menu-->
   <ul>
-    <li>Northcoders graduate Nov 2020</li>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#aboutsection">About</a></li>
+    <li><a href="#contactsection">Contact</a></li>
   </ul>
-</body>
+</nav>
+<!------text---------->
+<div class="text-container">
+  <p>Hello, I'm </p>
+  <p>Stephen</p>
+  <p>Northcoders graduate <br>November 2020</p>
+  <form action="mailto:stephenjcwalton@gmail.com" method="post" enctype="text/plain">
+<button class="contact-btn">Contact</button>
+<a href="https://www.linkedin.com/in/stephenjc1/"> <img class="linkedin-link" alt="linkedin" src="images/linkedin_logo.png" width="56.28" height="48"></a>
+<a href="https://github.com/stephenjc1"> <img class="github-link" alt="github" src="images/github_logo.png" width="48" height="48"></a>
+  </form>
+  <a name="aboutsection"></a>
+</div>
+<!------mainimg---------->
+<img src="images/me_yosemite.JPG" class="mainimg" alt="mainimg"> 
+  </section>
+  <!----about-section----->
+<div class="about-container">
+<!----img-->
+<img src="images/me_yosemite.JPG">
+<!---about-text----->
+<div class="about-text">
+  <p>About Me</p>
+  <p>Software Developer in the making!</p>
+  <p>I am inquisitive and enjoy solving
+  problems.</p>
+  <p>I have recently graduated from the Northcoders bootcamp. I love solving
+  problems. I have spent the last few months enjoying food, travel and sport, but would now love a junior dev role!</p>
+  <!----button---->
+  <!-- <button>Contact Me</button>
+  <button><a href="https://www.linkedin.com/in/stephenjc1/"></a> View LinkedIn </button> -->
+<div class="about-me-links">
+  <form method="get" action="https://www.linkedin.com/in/stephenjc1/">
+    <button type="submit">LinkedIn</button>
+  </form>
+  <form method="get" action="https://github.com/stephenjc1">
+    <button type="submit">Github</button>
+  </form>
+</div>
 
+</div>
+</div>
+<!----skills----->
+<div class="skills">
+  <!---text----->
+  <div class="skills-text">
+<p>Skills & Experience</p>
+<p>Backend development of servers, APIs and databases</p>
+<p>Frontend Development with responsive design</p>
+<p>Test Driven Development</p>
+<p>Remote collaberation & pair-programming</p>
+<p>Version control with Git & Github</p>
+</div>
+<div class="projects-header">
+  <p>My Projects</p>
+</div>
+<!--box----->
+<div class="box-container">
+<!-----1----->
+<div class="box-1">
+<span>1</span>
+<p class="heading">CharityBay</p>
+<p class="details">Full stack web application</p>
+<button>More Details</button>
+</div>
+<!-----2----->
+<div class="box-2">
+<span>2</span>
+<p class="heading">Northcoders News Backend</p>
+<p class="details">Backend web application</p>
+<button>More Details</button>
+</div>
+<!-----3----->
+<div class="box-3">
+<span>3</span>
+<p class="heading">Northcoders News Frontend</p>
+<p class="details">Frontend web application</p>
+<button>More Details</button>
+</div>
+
+</div>
+</div>
+<!---contact-------------->
+<a name="contactsection"></a>
+<div class="contact-me">
+<p>Get in touch!</p>
+<form action="mailto:stephenjcwalton@gmail.com" method="post" enctype="text/plain">
+  <button>Contact Me</button>
+</form>
+</div>
+<!-----footer------------->
+<footer>
+  <!-- <p>Going To The Internet</p>
+  <p>something really interesting</p>  -->
+  <!----social-->
+  <!-- <div class="social-icons">
+    <a href="#"></a>
+  </div> -->
+  <!---copyright---->
+  <p class="copyright">Stephen Walton 2020</p>
+</footer> 
+
+</body>
 </html>
+
+

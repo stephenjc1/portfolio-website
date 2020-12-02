@@ -1,0 +1,21 @@
+h1 {
+  font: italic bold 36px helvetica;
+  color: rgba(247, 132, 25, 0.952);
+
+  border: 4px dashed rgb(33, 161, 61);
+  padding: 40px 100px 60px 200px; /* top, right, bottom, left */
+  margin: 40px, 100px, 60px, 200px
+  
+
+}
+
+body {
+  display: felx;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica;
+}
+
+.title {
+  font-size: 46pt;
+}
