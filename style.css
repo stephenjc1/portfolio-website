@@ -109,6 +109,43 @@ nav ul li a {
 button:active {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 1150px) {
+  img.mainimg {
+    height: 0px;
+    position: absolute;
+    top: 20px;
+    bottom: 40px;
+    left: 70%;
+    transform: translateX(-58%);
+  }
+}
+
+@media screen and (min-width: 1151px) {
+  img.mainimg {
+    height: 570px;
+    position: absolute;
+    top: 20px;
+    bottom: 40px;
+    left: 70%;
+    transform: translateX(-58%);
+  }
+}
+
+@media screen and (min-width: 1501px) {
+  img.mainimg {
+    height: 900px;
+    position: absolute;
+    top: 20px;
+    bottom: 40px;
+    left: 70%;
+    transform: translateX(-58%);
+  }
+}
+/* img.mainimg {
+  height: auto;
+} */
+/* 
 .mainimg {
   height: 570px;
   position: absolute;
@@ -116,7 +153,8 @@ button:active {
   bottom: 40px;
   left: 70%;
   transform: translateX(-58%);
-}
+} */
+
 .about-container {
   width: 80%;
   height: 330px;
